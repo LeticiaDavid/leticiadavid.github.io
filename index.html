@@ -5,9 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfólio Leticia David</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <!-- Dev Icons Fonts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- CSS do Projeto-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Em construção</h1>
-    <h2>Volte mais tarde</h2>
+    <main id="container">
+        <!--Parte lateral esquerda-->
+        <aside id="bio-container">
+            <!--Título e foto-->
+            <h2>Leticia David</h2>
+            <img id="bio-image" src="img/profile.jpg" alt="Leticia David">
+            <p>Olá, meu nome é Leticia David e sou <span class="highlight">Estatística</span> </p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <!--Redes Sociais-->
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></li>
+            </ul>
+            <!--e-mail-->
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:leticia.david6@gmail.com">leticia.david6@gmail.com</a>
+            </div>
+        </aside>
+        <!--Parte lateral direita-->
+        <section id="about-container">
+            <!--Descrição-->
+            <h1 id="name">Leticia David</h1>
+            <p id="title"><span class="highlight">Estatística</span></p>
+            <p class="description">Sou Formada em Estatística pela UFSCar com experiência em <span class="highlight">coleta, análise exploratória e modelagem de dados</span>.</p>
+            <p class="description">Possuo registro ativo no Conselho Regional Estatística - 3ª Região.</p>
+            <!--Melhorar descrição-->
+            <a href="https://github.com/LeticiaDavid"  target="_blank" id="btn-projects"> <ion-icon name="share-social-ouline"></ion-icon> <span>Ver Projetos</span> </a>
+            <!--Skills-->
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as teconologias que domino:</p>
+            <!--Separando as skills-->
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Ferramentas</p>
+                    <i class="devicon-r-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
